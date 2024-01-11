@@ -1,0 +1,44 @@
+body {
+    background-color: #202124;
+    display: block;
+    text-align: center;   
+}
+
+#logo {
+    margin-top: 20%;
+}
+
+#searchBar {
+    height: 50px;
+    width: 50%;
+    background-color: #202124;
+    color: #ffffffff;
+    padding-left: 2%;
+    margin: 2em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 28px;
+    border-color: #646464ff;
+    font-size: 16px;
+}
+
+#searchBar:hover {
+    background-color: #303134;
+    border-color: #848484;
+    transition: 0.4s;
+}
+
+.buttons {
+    border-radius: 4px;
+    margin-left: 1em;
+    height: 35px;
+    width: 125px;
+    background-color: #343539;
+    border: none;
+    color: #ffffff;
+}
+
+.buttons:hover {
+    background-color: #444549;
+    transition: 0.2s;
+}
