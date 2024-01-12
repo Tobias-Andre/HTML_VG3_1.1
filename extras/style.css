@@ -1,14 +1,17 @@
+/*Style the body*/
 body {
     background-color: #202124;
     display: block;
     text-align: center;   
 }
 
+/*Style header 1*/
 h1 {
     margin-top: 20%;
     color: #ffffffff;
 }
 
+/*Style the button on agreement page*/
 #understandButton {
     width: 10em;
     height: 4em;
@@ -19,15 +22,18 @@ h1 {
     font-size: 28px;
 }
 
+/*Style the button on agreement page when hovered over*/
 #understandButton:hover {
     background-color: #444549;
     transition: 0.2s;
 }
 
+/*Style the google logo*/
 #logo {
     margin-top: 13%;
 }
 
+/*Style the searchbar*/
 #searchBar {
     height: 50px;
     width: 50%;
@@ -43,18 +49,21 @@ h1 {
     font-size: 16px;
 }
 
+/*Style the searchbar when hovered over*/
 #searchBar:hover {
     background-color: #303134;
     border-color: #848484;
     transition: 0.4s;
 }
 
+/*Style the cat image*/
 #angry {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+/*Style the buttons on google page*/
 .buttons {
     border-radius: 4px;
     margin-left: 1em;
@@ -65,6 +74,7 @@ h1 {
     color: #ffffff;
 }
 
+/*Style the buttons on googlepage when hovered over*/
 .buttons:hover {
     background-color: #444549;
     transition: 0.2s;
