@@ -10,6 +10,6 @@ function angy() {
     location.assign('angy.html');
 }
 
-function back() {
-    location.assign('index.html');
+function goToMain() {
+    location.assign('main.html');
 }
