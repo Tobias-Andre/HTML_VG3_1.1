@@ -5,12 +5,13 @@ body {
 }
 
 #logo {
-    margin-top: 20%;
+    margin-top: 13%;
 }
 
 #searchBar {
     height: 50px;
     width: 50%;
+    max-width: 600px;
     background-color: #202124;
     color: #ffffffff;
     padding-left: 2%;
@@ -26,6 +27,12 @@ body {
     background-color: #303134;
     border-color: #848484;
     transition: 0.4s;
+}
+
+#angry {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .buttons {
